@@ -1,0 +1,43 @@
+body {
+  font-family: Avenir Next;
+  background-color: skyblue;
+}
+div {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.daddy {
+  font-size:24px;
+  font-weight:bold;
+  text-decoration:none;
+  display:block;
+  text-align:center;
+  padding:8px 0 10px;
+}
+.rock {
+  height: 150px;
+  width: 150px;
+  margin: auto;
+  box-shadow:4px 4px #555;
+  border-radius: 10px;
+  background-color: red;
+}
+
+.paper {
+  height: 150px;
+  width: 150px;
+  background-color: blue;
+  margin: auto;
+  box-shadow:4px 4px #555;
+  border-radius: 10px;
+}
+
+.scissors {
+  height: 150px;
+  width: 150px;
+  background-color: green;
+  margin: auto;
+  box-shadow:4px 4px #555;
+  border-radius: 10px;
+}

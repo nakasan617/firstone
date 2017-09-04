@@ -1,0 +1,30 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+    <h1>あなたはパーを選びました。</h1>
+    
+    {% if number == 1 %}
+    <p>
+     相手は <strong>パー</strong> を選びました。
+    </p>
+    <p>
+    あいこです。
+    </p>
+    
+    {% elif number == 2 %}
+    <p>
+    相手は <strong>グー</strong>を選びました。
+    </p>
+    <p>
+    勝ちました！おめでとう！
+    </p>
+
+    {% else %}
+    <p>
+      相手は <strong>チョキ</strong> を選びました。
+    </p>
+    <p>
+    負けました。残念！
+    </p>
+    {% endif %}
+{% endblock %}
