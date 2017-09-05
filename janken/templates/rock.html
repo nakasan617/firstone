@@ -1,6 +1,11 @@
-{% extends 'layout.html' %}
-
-{% block body %}
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>janken</title>
+    <link rel="stylesheet" href="/static/style-2.css">
+  </head>
+  <body>
     <h1>あなたはグーを選びました。</h1>
 
     {% if number == 1 %}
@@ -26,4 +31,9 @@
     勝ちました！おめでとう！
     </p>
     {% endif %}
-{% endblock %}
+    
+    <div class="back">
+    <a href="/">戻る</a>
+    </div>
+  </body>
+</html>

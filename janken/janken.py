@@ -14,11 +14,10 @@ def rock():
 @app.route("/paper")
 def paper():
     return render_template("paper.html",number = random.randint(1,3))
-    
+
 @app.route("/scissors")
 def scissors():
     return render_template("scissors.html",number = random.randint(1,3))
-    
 
 if __name__=="__main__":
     app.run(host='0.0.0.0')
